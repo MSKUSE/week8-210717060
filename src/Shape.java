@@ -1,8 +1,9 @@
 public class Shape {
-
-    private String color = "white";
+    private String color= "white";
 
     public Shape(){
+
+    }
 
     public Shape(String color) {
         this.color = color;
@@ -16,22 +17,22 @@ public class Shape {
         this.color = color;
     }
 
-    public void describe(int sideA, int sideB){
-            System.out.println("Side A is " + sideA
-            +"Side B is " + sideB);
-        }
+    /*  public void describe(int sideA, int sideB){
+          System.out.println("side A is " + sideA +" side B is " +sideB);
+      }
 
-        public void describe(int sideA){
-            System.out.println("Side A is " + sideA);
-        }
+      public void describe(int sideA){
+          System.out.println("side A is " + sideA);
+      }
 
-        public void describe(double sideA){
-            System.out.println("Radius is " + sideA);
-        }
-        */
-        public void describe(){
-            System.out.println("This a Shape and "+
-                    "its color is");
-        }
+      public void describe(double sideA){
+          System.out.println("radius is " + sideA);
+      }
+
+  */
+    public void describe(){
+        System.out.println("This is a Shape and its color is " + this.color);
+    }
+
 
 }
